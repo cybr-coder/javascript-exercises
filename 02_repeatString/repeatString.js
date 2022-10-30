@@ -1,13 +1,13 @@
-const times = Math.floor(Math.random() * 1000)
-const repeatString = function(word, times ) {
+const times = Math.floor(Math.random() * 1000);
+const repeatString = function(word, times) {
     if (times < 0) {
-        return 'ERROR';
+        return "ERROR";
     }
-    string = '';
-    for (let i = 0; i < times; i++) {
+    string = "";
+    for(i = 0; i < times; i++) {
         string += word;
     }
-   return string;
+    return string;   
 };
 // Do not edit below this line
 module.exports = repeatString;
